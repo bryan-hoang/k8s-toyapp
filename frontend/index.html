@@ -8,8 +8,8 @@
 	<body>
 		<script>
 			async function sendRequest() {
-				// const url = `${window.location.origin}/api/hello`
-				const url = 'http://localhost:3000/api/hello';
+				const url = `${window.location.origin}/api/hello`
+				// const url = 'http://localhost:3000/api/hello';
 				const response = await fetch(url);
 				console.log(await response.text());
 			}
